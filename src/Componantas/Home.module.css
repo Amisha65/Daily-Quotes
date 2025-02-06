@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+*{
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+body{
+    background-color: rgb(193, 243, 243);
+}
+
+.mainContainer{
+    display: grid;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    
+}
+.roww{
+    width: 90vb;
+    background-color: white;
+}
+
+.heading h1{
+    font-size: 4rem;
+    position: relative;
+}
+
+
+.heading h1::after{
+    content: '';
+    width: 200px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23,124,229);
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+#qoute{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#author{
+    font-size: 1.5rem;
+    display: block;
+    float: right;
+    position: relative;
+}
+
+#author::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23,124,229);
+    position: absolute;
+    top:50%;
+    left: -30px;
+
+}
+
+.quoteButtons button{
+    border-radius: 1rem;
+    border-color: rgb(23,124,229);
+    padding: 0.75rem;
+    background-color:rgb(23,124,229);
+    color:azure;
+    font-size: 1.25rem;
+    cursor: pointer;
+} 
+
+.quoteButtons button:active{
+    box-shadow: inset;
+    background-color:rgb(113, 171, 234);
+}
+
+
+.homeShareButtond { 
+    border-radius: 1rem;
+    border-color: rgb(23,124,229);
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    background-color:rgb(255, 255, 255);
+    color: rgb(23,124,229);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.loading{
+    border:4px solid rgb(244, 247, 247);
+    border-top: 4px solid rgb(23,124,229);
+    border-right: 4px solid rgb(23,124,229);
+    padding:20px;
+    border-radius:50%;
+    animation: spinAnima 1.5s infinite normal;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes spinAnima{
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.spinner{
+    margin-top: 100px; 
+}
+
+.toSeeSave:hover{
+    color: black;
+}
+
+.likeSaveButton {
+    font-size: 1.9em;
+    width: fit-content;
+    position: absolute ;
+    right: 22%;
+    color: rgb(161, 157, 157);
+    
+}
+
+@media (max-width: 2500px) {
+    .likeSaveButton {
+        right: 25%;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .likeSaveButton {
+        right: 0px; 
+       
+    }
+}
+
+@media (max-width: 480px) {
+    .likeSaveButton {
+    
+        right: -30px ;
+        
+    }
+    .heading h1{
+        font-size: 3rem;
+        position: relative;
+    }
+}
+
+

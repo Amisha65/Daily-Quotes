@@ -1,0 +1,79 @@
+ h1{
+    font-size: 4rem;
+    position: relative;
+    text-align: center;
+}
+
+
+ h1::after{
+    content: '';
+    width: 200px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23,124,229);
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+@media (max-width: 480px) {
+    h1{
+        font-size: 3rem;
+        position: relative;
+    }
+}
+
+
+/* Grid Layout for Saved Quotes */
+.quoteGrid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(328px, 1fr)); /* 3 per row */
+    gap: 35px;
+    list-style-type: none;
+    padding: 10px;
+    justify-content:center;
+    
+}
+
+/* Individual Quote Box */
+.savedQuote {
+    border: 2px solid rgb(219, 216, 216) ;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-height: 180px;
+    
+}
+
+/* Button Alignment */
+.buttonContainer {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.deleteButton {
+  
+    color: rgb(8, 8, 8);
+    border-color: rgb(23,124,229);
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    background-color: rgb(239, 7, 7);
+}
+
+.shareButton {
+    /* background: blue; */
+    color: rgb(16, 16, 16);
+    border-color: rgb(23,124,229);
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}

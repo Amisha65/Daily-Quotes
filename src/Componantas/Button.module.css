@@ -1,0 +1,32 @@
+.shareButtond button{ 
+    border-radius: 1rem;
+    border-color: rgb(23,124,229);
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color:rgb(255, 255, 255);
+    color: rgb(23,124,229);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#whatsApp:hover{
+    color: green;
+    border-color: green;
+    
+}
+
+#linkedin:hover{
+    color: #0a5096;
+    border-color: #0a5096;
+}
+
+#tweet:hover{
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+} 
+
+#whatsApp:active, #tweet:active, #linkedin:active{ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
