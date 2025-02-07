@@ -25,7 +25,10 @@ A simple and interactive Quote Generator web app that allows users to fetch rand
 
 ## 📸 **Screenshots**
 
-<img href="./assets/ssOfHome.png">
+## 📸 **Screenshots**
+
+Here’s how the app looks:  
+![App Preview](./assets/screenshot.png)
 
 ## 📌 **Future Enhancements**
 
