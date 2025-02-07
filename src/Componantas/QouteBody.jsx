@@ -26,7 +26,7 @@ const QouteBody = ({
       <div className={`col-12 d-flex justify-content-center gap-4 pt-4 `}>
         <span className={`${css.quoteButtons}`}>
           <button id={css.newQoute} onClick={handeleNewQoute}>
-            {fetching ? "Fetching..." : "New Quote"}
+            {fetching ? "Loading..." : "New Quote"}
           </button>
         </span>
 
