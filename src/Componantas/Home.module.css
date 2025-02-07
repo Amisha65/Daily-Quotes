@@ -168,18 +168,18 @@ body{
     }
     .heading h1::after{
         
-        top: 40px;  
+        top: 40px;
+        
     }
     .quoteButtons button{
-        font-size: 1rem;  
+        font-size: 0.8rem;  
     } 
     .homeShareButtond { 
         padding: 0.75rem;
-        font-size: 1rem;  
+        font-size: 0.8rem;  
     }
-    .roww{
-        width: 40vb;
-    } 
+   
+    
 }
 
 
