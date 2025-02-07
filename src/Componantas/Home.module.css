@@ -45,6 +45,7 @@ body{
     font-size: 2rem;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 #author{
@@ -151,8 +152,18 @@ body{
         
     }
     .heading h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         position: relative;
+    }
+    #qoute{
+        font-size: 1.5rem;
+    }
+    #author{
+        font-size: 1rem;
+    }
+    .roww{
+        width: 50vb;
+       
     }
 }
 

@@ -27,7 +27,7 @@ const SaveLike = ({
   };
   return (
     <>
-      <span className="pb-5">
+      <span className="pb-3">
         {!toShowSaved && (
           <>
             <span

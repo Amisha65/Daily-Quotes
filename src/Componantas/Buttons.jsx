@@ -4,10 +4,11 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import css from "./Button.module.css";
 
 const Buttons = ({ qoute, author }) => {
+  const webPageUrl = "https://daily-quotes-j8qw.vercel.app/";
   const whatsApp = () => {
     window.open(
       ` https://wa.me/?text=${encodeURIComponent(
-        qoute + "\n\n---by " + author
+        qoute + "\n\n---by " + author + "\n For more Qoutes-" + webPageUrl
       )} `,
       "Tweet Window",
       "width=600,height=400px"
@@ -17,7 +18,13 @@ const Buttons = ({ qoute, author }) => {
   const linkedin = () => {
     window.open(
       `https://www.linkedin.com/feed/?shareActive=true&text=${encodeURIComponent(
-        qoute + "\n\n" + " ".repeat(50) + "---by " + author
+        qoute +
+          "\n\n" +
+          " ".repeat(50) +
+          "---by " +
+          author +
+          "\n For more Qoutes-" +
+          webPageUrl
       )} `,
       "Tweet Window",
       "width=600,height=400px"
@@ -27,7 +34,13 @@ const Buttons = ({ qoute, author }) => {
   const tweet = () => {
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-        qoute + "\n\n" + " ".repeat(50) + "---by " + author
+        qoute +
+          "\n\n" +
+          " ".repeat(50) +
+          "---by " +
+          author +
+          "\n For more Qoutes-" +
+          webPageUrl
       )} `,
       "Tweet Window",
       "width=600,height=400px"
