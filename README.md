@@ -1,8 +1,30 @@
-# React + Vite
+# **Quote Generator Web App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Quote Generator web app that allows users to fetch random quotes, save favorites, manage their saved list, and share quotes easily.
 
-Currently, two official plugins are available:
+## 🌟 **Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ **Fetch Random Quotes** – Get a new quote with a single click.  
+✅ **Save/Unsave Quotes** – Click the heart icon to save/remove a quote.  
+✅ **View Saved Quotes** – Access all saved quotes in a dedicated section.  
+✅ **Share Quotes** – Share quotes via social media or copy to clipboard.  
+✅ **Toggle Between Views** – Seamless switching between main and saved quotes.  
+✅ **Responsive UI** – Built with a clean and mobile-friendly design.
+
+## 🛠 **Tech Stack**
+
+- **Frontend:** React.js, CSS (Bootstrap & Custom Styles)
+- **API:** Fetching quotes from an external REST API
+- **State Management:** React Hooks (useState, useEffect)
+- **Storage:** Local Storage for saving quotes
+
+## 🔗 **Live Demo**
+
+<a href="https://daily-quotes-j8qw.vercel.app/"/>
+
+## 📸 **Screenshots**
+
+## 📌 **Future Enhancements**
+
+🔹 Dark mode support
+🔹 User authentication for personalized quote saving
