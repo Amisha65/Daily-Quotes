@@ -18,11 +18,14 @@ A simple and interactive Quote Generator web app that allows users to fetch rand
 - **State Management:** React Hooks (useState, useEffect)
 - **Storage:** Local Storage for saving quotes
 
-## 🔗 **Live Demo**
+## 🔗 **Live Demo & GitHub Repo**
 
-<a href="https://daily-quotes-j8qw.vercel.app/"/>
+🔗 **Live Demo:** [Click Here](https://daily-quotes-j8qw.vercel.app/)  
+💻 **GitHub Repo:** [GitHub Repository](https://github.com/Amisha65/Daily-Quotes?tab=readme-ov-file#-live-demor)
 
 ## 📸 **Screenshots**
+
+<img href="./assets/ssOfHome.png">
 
 ## 📌 **Future Enhancements**
 
