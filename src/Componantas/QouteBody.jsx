@@ -13,7 +13,7 @@ const QouteBody = ({
   return (
     <>
       <div className={`col-12 d-flex justify-content-center ${css.heading}`}>
-        <h1>Quote of the Day</h1>
+        <h1 className=" mt-3">Quote of the Day</h1>
       </div>
 
       <div className="col-12 quoteText pt-3">
