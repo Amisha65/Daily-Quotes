@@ -20,7 +20,7 @@ A simple and interactive Quote Generator web app that allows users to fetch rand
 
 ## 🔗 **Live Demo**
 
-<a href="https://daily-quotes-j8qw.vercel.app/"/>
+<h6><a href="https://daily-quotes-j8qw.vercel.app/"/></a>h6>
 
 ## 📸 **Screenshots**
 
