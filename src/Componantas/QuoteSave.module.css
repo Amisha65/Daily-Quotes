@@ -21,13 +21,14 @@
 
 /* Grid Layout for Saved Quotes */
 .quoteGrid {
-    margin-top: 20px;
+    margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(328px, 1fr)); /* 3 per row */
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr)); /* 3 per row */
     gap: 35px;
     list-style-type: none;
     padding: 10px;
-    margin:10px
+    margin:10px;
+    justify-content: center;
     
 }
 
@@ -70,7 +71,10 @@
 
 @media (max-width: 480px) {
     h1{
-        font-size: 3rem;
+        font-size: 2rem;
         position: relative;
+    }
+    h1::after{
+        top: 40px;  
     }
 }

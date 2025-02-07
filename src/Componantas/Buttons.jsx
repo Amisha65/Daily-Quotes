@@ -8,7 +8,7 @@ const Buttons = ({ qoute, author }) => {
   const whatsApp = () => {
     window.open(
       ` https://wa.me/?text=${encodeURIComponent(
-        qoute + "\n\n---by " + author + "\n For more Qoutes-" + webPageUrl
+        qoute + "\n\n---by " + author + "\n\n For more Qoutes-\n" + webPageUrl
       )} `,
       "Tweet Window",
       "width=600,height=400px"
@@ -23,7 +23,7 @@ const Buttons = ({ qoute, author }) => {
           " ".repeat(50) +
           "---by " +
           author +
-          "\n For more Qoutes-" +
+          "\n\n For more Qoutes-\n" +
           webPageUrl
       )} `,
       "Tweet Window",
@@ -39,7 +39,7 @@ const Buttons = ({ qoute, author }) => {
           " ".repeat(50) +
           "---by " +
           author +
-          "\n For more Qoutes-" +
+          "\n\n For more Qoutes-\n" +
           webPageUrl
       )} `,
       "Tweet Window",
